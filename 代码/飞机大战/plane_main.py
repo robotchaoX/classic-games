@@ -3,7 +3,9 @@ from plane_sprites import *
 
 from 代码.飞机大战.plane_sprites import SCREEN_RECT, CREATE_ENEMY_EVENT, HERO_FIRE_EVENT
 
-# git版本控制
+
+# 第3次提交
+# git
 class PlaneGame(object):
     """飞机大战主游戏"""
 
