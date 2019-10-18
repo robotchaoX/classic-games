@@ -1,11 +1,7 @@
 import pygame
 from plane_sprites import *
 
-from 代码.飞机大战.plane_sprites import SCREEN_RECT, CREATE_ENEMY_EVENT, HERO_FIRE_EVENT
 
-
-# 第3次提交
-# git
 class PlaneGame(object):
     """飞机大战主游戏"""
 
@@ -92,6 +88,7 @@ class PlaneGame(object):
 
         # 判断列表时候有内容
         if len(enemies) > 0:
+
             # 让英雄牺牲
             self.hero.kill()
 
@@ -119,8 +116,8 @@ class PlaneGame(object):
         pygame.quit()
         exit()
 
-
 if __name__ == '__main__':
+
     # 创建游戏对象
     game = PlaneGame()
 
