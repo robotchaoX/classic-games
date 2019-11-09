@@ -1,7 +1,8 @@
-# 设置最低版本的cmake要求
-cmake_minimum_required(VERSION 2.8)
 # 设置项目信息
 project(GreedySnake)
+
+# 设置最低版本的cmake要求
+cmake_minimum_required(VERSION 3.1)
 
 # 指定使用的编译器
 #set(CMAKE_C_COMPILER "/usr/bin/gcc")
